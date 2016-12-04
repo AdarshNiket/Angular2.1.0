@@ -1,7 +1,7 @@
-# Angular2.1.0
+# Angular2.2.3
 Angular 2 Project folder structure setup
 
-- Angular 2.1.0
+- Angular 2.2.3
 - Gulp
 - SASS
 - Typescript
