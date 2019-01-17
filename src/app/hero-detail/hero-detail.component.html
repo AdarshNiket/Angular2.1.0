@@ -1,3 +1,11 @@
-<p>
-  hero-detail works!
-</p>
+<div *ngIf="hero">
+	<h2>{{hero.name | uppercase}} Details</h2>
+	<div><span>id : </span>{{hero.id}}</div>
+	<div>
+		<!-- <span>name : </span>{{hero.name}} -->
+		<label>name :
+			<input [(ngModel)]="hero.name" placeholder="name">
+			<!-- Angular two way binding using ng-model directive-->
+		</label>
+	</div>
+</div>
